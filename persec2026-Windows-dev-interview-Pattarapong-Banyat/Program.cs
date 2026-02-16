@@ -32,6 +32,27 @@ namespace InterviewProject
             //p2.Problem2_Function(new string[] {"TH10", "TH3Netflix", "TH1", "TH7" });
 
             #endregion
+
+            #region Run Problem 3
+            // Run Problem 3
+            var p3 = new Problem3();
+
+            string search = "th";
+
+            string[] items =
+            {
+                "Mother",
+                "Think",
+                "Worthy",
+                "Apple",
+                "Android"
+            };
+
+            int maxResult = 2;
+
+            p3.Problem3_Function(search, items, maxResult);
+
+            #endregion
         }
     }
 }
