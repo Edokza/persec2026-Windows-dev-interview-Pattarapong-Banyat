@@ -26,10 +26,10 @@ namespace InterviewProject
             #region Run Problem 2
 
             // Run Problem 2
-            var p2 = new Problem2();
+            //var p2 = new Problem2();
 
-            p2.Problem2_Function(new string[] {"TH19", "SG20", "TH2"});
-            p2.Problem2_Function(new string[] {"TH10", "TH3Netflix", "TH1", "TH7" });
+            //p2.Problem2_Function(new string[] {"TH19", "SG20", "TH2"});
+            //p2.Problem2_Function(new string[] {"TH10", "TH3Netflix", "TH1", "TH7" });
 
             #endregion
         }
