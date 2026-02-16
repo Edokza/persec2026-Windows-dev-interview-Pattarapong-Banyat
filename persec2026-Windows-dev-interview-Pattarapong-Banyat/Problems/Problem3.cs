@@ -46,6 +46,8 @@ namespace persec2026_Windows_dev_interview_Pattarapong_Banyat.Problems
                 }
             }
 
+            //Console.WriteLine($"Matched items: {string.Join(", ", result.Select(x => $"{x.word} (index: {x.index})"))}");
+
             return result;
         }
 

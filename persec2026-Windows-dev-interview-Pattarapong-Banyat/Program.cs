@@ -53,6 +53,18 @@ namespace InterviewProject
             //p3.Problem3_Function(search, items, maxResult);
 
             #endregion
+
+            #region Run Problem 4
+
+            // Run Problem 4
+            var p4 = new Problem4();
+
+            Console.WriteLine(p4.IntToRoman_Mod(1989));
+            Console.WriteLine(p4.IntToRoman_Mod(2000));
+            Console.WriteLine(p4.IntToRoman_Mod(68));
+            Console.WriteLine(p4.IntToRoman_Mod(109));
+
+            #endregion
         }
     }
 }
