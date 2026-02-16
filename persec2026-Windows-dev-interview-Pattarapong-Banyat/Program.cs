@@ -35,22 +35,22 @@ namespace InterviewProject
 
             #region Run Problem 3
             // Run Problem 3
-            var p3 = new Problem3();
+            //var p3 = new Problem3();
 
-            string search = "th";
+            //string search = "th";
 
-            string[] items =
-            {
-                "Mother",
-                "Think",
-                "Worthy",
-                "Apple",
-                "Android"
-            };
+            //string[] items =
+            //{
+            //    "Mother",
+            //    "Think",
+            //    "Worthy",
+            //    "Apple",
+            //    "Android"
+            //};
 
-            int maxResult = 2;
+            //int maxResult = 2;
 
-            p3.Problem3_Function(search, items, maxResult);
+            //p3.Problem3_Function(search, items, maxResult);
 
             #endregion
         }
