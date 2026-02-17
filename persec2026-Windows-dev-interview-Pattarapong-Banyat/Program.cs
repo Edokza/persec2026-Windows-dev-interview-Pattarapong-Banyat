@@ -82,6 +82,15 @@ namespace InterviewProject
             //p5.Problem5_Function(9163);
 
             #endregion
+
+            #region Run Problem 6
+
+            // Run Problem 6
+            var p6 = new Problem6();
+            p6.Tribonacci(10);
+
+
+            #endregion
         }
     }
 }
