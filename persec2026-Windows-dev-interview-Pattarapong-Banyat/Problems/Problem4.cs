@@ -3,13 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace persec2026_Windows_dev_interview_Pattarapong_Banyat.Problems
 {
     public class Problem4
     {
+        public void Problem4_Function1(int number)
+        {
+            if(number == 0) { 
+                Console.WriteLine("Input is zero");
+                return;
+            }
+            Console.WriteLine($"\"{number}\" => {IntToRoman(number)}");
+        }
+
+        public void Problem4_Function2(string roman)
+        {
+            if(string.IsNullOrEmpty(roman))
+            {
+                Console.WriteLine("Input is null or empty");
+                return;
+            }
+            Console.WriteLine($"\"{roman}\" => {RomanToInt(roman)}");
+        }
+
         #region IntToRoman
-        public string IntToRoman_Mod(int number)
+        public string IntToRoman(int number)
         {
             int thousands = number / 1000;
             int hundreds = (number % 1000) / 100;

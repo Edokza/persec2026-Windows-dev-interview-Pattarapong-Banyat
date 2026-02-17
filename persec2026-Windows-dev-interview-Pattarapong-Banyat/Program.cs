@@ -57,17 +57,17 @@ namespace InterviewProject
             #region Run Problem 4
 
             // Run Problem 4
-            var p4 = new Problem4();
+            //var p4 = new Problem4();
 
-            //Console.WriteLine(p4.IntToRoman_Mod(1989));
-            //Console.WriteLine(p4.IntToRoman_Mod(2000));
-            //Console.WriteLine(p4.IntToRoman_Mod(68));
-            //Console.WriteLine(p4.IntToRoman_Mod(109));
+            //p4.Problem4_Function1(1989);
+            //p4.Problem4_Function1(2000);
+            //p4.Problem4_Function1(68);
+            //p4.Problem4_Function1(109);
 
-            Console.WriteLine(p4.RomanToInt("MCMLXXXIX"));
-            Console.WriteLine(p4.RomanToInt("MM"));
-            Console.WriteLine(p4.RomanToInt("LXVIII"));
-            Console.WriteLine(p4.RomanToInt("CIX"));
+            //p4.Problem4_Function2("MCMLXXXIX");
+            //p4.Problem4_Function2("MM");
+            //p4.Problem4_Function2("LXVIII");
+            //p4.Problem4_Function2("CIX");
 
             #endregion
         }
