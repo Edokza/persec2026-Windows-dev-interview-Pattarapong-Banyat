@@ -59,10 +59,15 @@ namespace InterviewProject
             // Run Problem 4
             var p4 = new Problem4();
 
-            Console.WriteLine(p4.IntToRoman_Mod(1989));
-            Console.WriteLine(p4.IntToRoman_Mod(2000));
-            Console.WriteLine(p4.IntToRoman_Mod(68));
-            Console.WriteLine(p4.IntToRoman_Mod(109));
+            //Console.WriteLine(p4.IntToRoman_Mod(1989));
+            //Console.WriteLine(p4.IntToRoman_Mod(2000));
+            //Console.WriteLine(p4.IntToRoman_Mod(68));
+            //Console.WriteLine(p4.IntToRoman_Mod(109));
+
+            Console.WriteLine(p4.RomanToInt("MCMLXXXIX"));
+            Console.WriteLine(p4.RomanToInt("MM"));
+            Console.WriteLine(p4.RomanToInt("LXVIII"));
+            Console.WriteLine(p4.RomanToInt("CIX"));
 
             #endregion
         }
