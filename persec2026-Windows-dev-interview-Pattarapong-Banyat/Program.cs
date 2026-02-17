@@ -89,21 +89,15 @@ namespace InterviewProject
             var p6 = new Problem6();
             // ===== CASE 1 =====
             int[] seed1 = { 1, 3, 5 };
-            var result1 = p6.Tribonacci(seed1, 5);
-
-            Console.WriteLine($"[{string.Join(", ", seed1)}] => [{string.Join(", ", result1)}]");
+            p6.Problem6_Function(seed1, 5);
 
             // ===== CASE 2 =====
             int[] seed2 = { 2, 2, 2 };
-            var result2 = p6.Tribonacci(seed2, 3);
-
-            Console.WriteLine($"[{string.Join(", ", seed2)}] => [{string.Join(", ", result2)}]");
+            p6.Problem6_Function(seed2, 3);
 
             // ===== CASE 3 =====
             int[] seed3 = { 10, 10, 10 };
-            var result3 = p6.Tribonacci(seed3, 4);
-
-            Console.WriteLine($"[{string.Join(", ", seed3)}] => [{string.Join(", ", result3)}]");
+            p6.Problem6_Function(seed3, 4);
 
         #endregion
 

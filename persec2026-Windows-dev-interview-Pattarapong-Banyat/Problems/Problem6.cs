@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,7 +9,17 @@ namespace persec2026_Windows_dev_interview_Pattarapong_Banyat.Problems
 {
     public class Problem6
     {
-        public void Problem6_Function() { }
+        public void Problem6_Function(int[] seed, int n)
+        {
+            if(n < 0)
+            {
+                Console.WriteLine("Input is invalid");
+                return;
+            }
+
+            int[] result = Tribonacci(seed, n);
+            Console.WriteLine($"f([{string.Join(", ", seed)}], {n}) => [{string.Join(", ", result)}]");
+        }
 
         public int[] Tribonacci(int[] seed, int n)
         {
@@ -16,7 +27,7 @@ namespace persec2026_Windows_dev_interview_Pattarapong_Banyat.Problems
 
             if(n <= seed.Length)
             {
-                Console.WriteLine(string.Join(", ", result.GetRange(0, n).ToArray()));
+                //Console.WriteLine(string.Join(", ", result.GetRange(0, n).ToArray()));
                 return result.GetRange(0, n).ToArray();
             }
 
@@ -34,7 +45,7 @@ namespace persec2026_Windows_dev_interview_Pattarapong_Banyat.Problems
 
                 result.Add(next);
 
-                Console.WriteLine(string.Join(", ", result));
+                //Console.WriteLine(string.Join(", ", result));
             }
 
             return result.ToArray();
