@@ -18,7 +18,7 @@ namespace persec2026_Windows_dev_interview_Pattarapong_Banyat.Problems
 
             string[] result = Autocomplete(search, items, maxResult);
 
-            Console.WriteLine($"Search: {search} items: {string.Join(", ", items)}  MaxResult: {maxResult}");
+            Console.WriteLine($"Search: {search}, items: [{string.Join(", ", items)}],  MaxResult: {maxResult}");
             Console.WriteLine($"Result: {string.Join(", ", result)}");
         }
 
