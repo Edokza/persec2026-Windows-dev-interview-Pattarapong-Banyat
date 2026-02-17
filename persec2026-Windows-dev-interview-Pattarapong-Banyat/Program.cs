@@ -70,6 +70,18 @@ namespace InterviewProject
             //p4.Problem4_Function2("CIX");
 
             #endregion
+
+            #region Run Problem 5
+
+            // Run Problem 5
+            //var p5 = new Problem5();
+
+            //p5.Problem5_Function(3008);
+            //p5.Problem5_Function(1989);
+            //p5.Problem5_Function(2679);
+            //p5.Problem5_Function(9163);
+
+            #endregion
         }
     }
 }
